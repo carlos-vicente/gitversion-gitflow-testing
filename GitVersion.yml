@@ -1,0 +1,12 @@
+mode: ContinuousDelivery
+tag-prefix: '[Rr]elease-'
+assembly-versioning-scheme: MajorMinorPatchTag
+assembly-file-versioning-scheme: MajorMinorPatchTag
+branches:
+  develop:
+    increment: None
+  master:
+    increment: None
+ignore:
+  sha: []
+merge-message-formats: {}
