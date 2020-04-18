@@ -1,0 +1,11 @@
+version: "3"
+services:
+  server:
+    image: jetbrains/teamcity-server
+    ports:
+      - "8112:8111"
+  teamcity-agent:
+    image: jetbrains/teamcity-agent
+    environment:
+      - SERVER_URL=http://server:8111
+      - AGENT_NAME=regular_agent
