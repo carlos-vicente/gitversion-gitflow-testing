@@ -1,1 +1,1 @@
-dotnet-gitverion
+dotnet-gitversion
