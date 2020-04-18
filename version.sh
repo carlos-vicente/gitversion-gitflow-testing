@@ -1,1 +1,1 @@
-dotnet-gitversion
+dotnet-gitversion /output buildserver
